@@ -1,0 +1,50 @@
+/* custom style for moodle app customization 
+ * Author:  joshuaomotayo
+ * Url:     http://olalekan.pw
+ * Email:   admin@olalekan.pw
+*/
+
+
+/* logo */
+
+ion-app.app-root page-core-login-credentials img.login-logo, ion-app.app-root page-core-login-reconnect img.login-logo, ion-app.app-root page-core-login-site img.login-logo, .core-login-site-logo img {
+    width: 45%;
+    /*max-width: 75% !important;*/
+    padding: 60px 0 !important
+}
+
+.tabs-md .tabbar, .tabs-ios .tabbar {
+    background: #e5355f;
+}
+
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon, .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
+    color: #f8c300 !important;
+}
+
+ion-app.app-root page-core-login-credentials .box {
+	border: none;
+}
+
+ion-app.app-root page-core-login-credentials .scroll-content {
+	background: radial-gradient(white, #ffffff);
+}
+
+/* custom color on login screen */
+ion-app.app-root page-core-login-credentials .core-login-site-logo {
+    margin: 0 !important;
+    background-color: #02B1AC !important;
+    max-width: none;
+    width: 100% !important;
+}
+
+[dir="ltr"] ion-app.md [padding] .scroll-content, [dir="rtl"] ion-app.md [padding] .scroll-content, [dir="ltr"] ion-app.ios [padding] .scroll-content, [dir="rtl"] ion-app.ios [padding] .scroll-content {
+    padding: 0 !important;
+}
+
+[dir="ltr"] .item-md {
+    padding-right: 16px;
+}
+
+form.core-login-form {
+    padding: 10px !important;
+}

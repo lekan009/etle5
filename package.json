@@ -1,10 +1,10 @@
 {
-  "name": "moodlemobile",
-  "version": "3.9.2",
-  "description": "The official app for Moodle.",
+  "name": "etllms",
+  "version": "1.0.0",
+  "description": "The official app for ETL E5 LMS.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "Olalekan Omotayo.",
+    "email": "admin@olalekan.pw"
   },
   "config": {
     "ionic_webpack": "./config/webpack.config.js",
@@ -179,7 +179,7 @@
       "cordova-plugin-badge": {},
       "cordova-plugin-camera": {},
       "cordova-plugin-customurlscheme": {
-        "URL_SCHEME": "moodlemobile"
+        "URL_SCHEME": "etllms"
       },
       "cordova-plugin-device": {},
       "cordova-plugin-file": {},
@@ -242,7 +242,7 @@
       {
         "name": "Moodle Mobile URL",
         "schemes": [
-          "moodlemobile"
+          "etllms"
         ],
         "role": "Viewer"
       }
